@@ -1,5 +1,5 @@
 /**+---
- * Used to play Google's T-Rex run game with no machine learning just servos and LDR sensors. 
+ * Used to play Google's T-Rex run game with no machine learning just servos and a LDR sensor. 
  * @author Jeffrey Boisvert
  */
 
@@ -20,11 +20,11 @@ const int DUCK_OFF_POSITION = 105; //Change this based on how your servos are se
 const int DUCK_ON_POSITION = 120; //Change this based on how your servos are set up 
 
 //Sensor object values
-const int MIN_OBJECT_RANGE = 532;
-const int MAX_OBJECT_RANGE = 695; 
+const int MIN_OBJECT_RANGE = 532; //Change based on your screen
+const int MAX_OBJECT_RANGE = 695; //Change based on your screen
 
 int jumpSensorValue = 0; 
-const int TIME_BETWEEN_JUMP = 290;
+const int TIME_BETWEEN_JUMP = 290; //Change based on your placement
 
 void setup() {
   jumpServo.attach(JUMP_SERVO_PIN); 
