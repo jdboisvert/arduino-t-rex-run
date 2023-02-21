@@ -1,5 +1,7 @@
 # Arduino T-Rex Run
-A small project to use an Arduino UNO to play Google's T-Rex run game (NO MACHINE LEARNING, ALL MECHANICAL(ish))
+A small project to use an Arduino UNO to play Google's T-Rex run game (no machine learning or AI involved).
+
+![A GIF showcasing the project in action on a laptop.](t-rex-run-demo.gif)
 
 ## After cloning project
 1. Open the "schematic.pdf" file and set up Arduino based on it. Keep in mind it is a 10k OHM resistor being used (the program I used to create the schematic did not have the proper resistor image).
@@ -11,9 +13,11 @@ A small project to use an Arduino UNO to play Google's T-Rex run game (NO MACHIN
 7. Run some tests
 8. Volia! Hopefully now you can watch your Arduino play T-Rex run for you! 
 
+## Schematic
+![A PNG of the schematic](schematic.png)
+
 ## Notes
 * Watch the t-rex-run-demo.mp4 if you want to see how I had it set up. 
-* This project is not perfect and tends to glitch sometimes when transitioning between night and day. 
+* This project is not perfect and tends to glitch sometimes when transitioning between night and day quickly. 
 * The main purpose of this project was to apply KISS (Keep It Simple Stupid) so feel free to add on to it :) 
-* The idea of this project orginally came from a Facebook post a friend shared with me which can be found [by clicking here](https://www.facebook.com/engineeringinsider/videos/1298109030381643/)
-* There are most likely better ways of doing this but I really wanted to not look at other repos and try it myself.
+* The idea of this project originally came from a Facebook post a friend shared with me and I wanted to try it out.
